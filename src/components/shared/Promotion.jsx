@@ -4,7 +4,7 @@ function Card() {
   return (
     <div className="d-flex justify-content-center mt-5">
       <div
-        className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden group hover:shadow-lg transition-shadow border-border rounded-4"
+        className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden group hover:shadow-lg transition-shadow border-border rounded-4 hover-card"
         style={{ width: "22rem" }}
       >
         {/* รูป */}

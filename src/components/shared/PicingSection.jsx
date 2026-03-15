@@ -13,7 +13,7 @@ function PricingSection() {
 
           {/* STANDARD */}
           <div className="col-md-4">
-            <div className="card h-100 border-0 shadow-sm rounded-4">
+            <div className="card h-100 border-0 shadow-sm rounded-4 pricing-card">
               <div className="card-body py-5">
                 <h6 className="text-muted fw-bold">STANDARD</h6>
                 <h1 className="fw-bold text-danger my-3">
@@ -28,7 +28,7 @@ function PricingSection() {
 
           {/* PREMIUM */}
           <div className="col-md-4">
-            <div className="card h-100 border-danger border-2 shadow-sm rounded-4 position-relative">
+            <div className="card h-100 border-danger border-2 shadow-sm rounded-4 position-relative pricing-card">
 
               {/* Best Value Badge */}
               <span
@@ -57,7 +57,7 @@ function PricingSection() {
 
           {/* LUXURY */}
           <div className="col-md-4">
-            <div className="card h-100 border-warning border-2 shadow-sm rounded-4">
+            <div className="card h-100 border-warning border-2 shadow-sm rounded-4 pricing-card">
               <div className="card-body py-5">
                 <h6 className="fw-bold text-warning">LUXURY</h6>
                 <h1 className="fw-bold text-danger my-3">

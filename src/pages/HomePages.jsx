@@ -3,9 +3,7 @@ import HeroSection from "../components/shared/HeroSection"
 import PricingSection from "../components/shared/PicingSection"
 import Promotion from "../components/shared/Promotion"
 import AboutPages from "../pages/AboutPages"
-
-
-
+import ContactSection from "../components/shared/ContactSection"
 
 function HomePage() {
   return (
@@ -33,7 +31,6 @@ function HomePage() {
         <Card /><Card /><Card /><Card />
     </div>
 
-    <div>
      <div className="container" style={{ maxWidth: "1100px" }}> {/* 1. จำกัดความกว้างกลุ่มการ์ดเพื่อลดระยะห่าง */}
   <div className="text-center mb-12">
     <h2 className="text-3xl md:text-4xl font-bold text-foreground" style={{ marginTop: "60px" }}>
@@ -64,7 +61,8 @@ function HomePage() {
     </div>
   </div>
 </div>
-    </div>
+
+    <ContactSection />
     </div>
   )
 }
